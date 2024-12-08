@@ -1,9 +1,6 @@
 package dev.jarand.aoc
 
-import dev.jarand.aoc.years.year2024.days.Year2024Day1
-import dev.jarand.aoc.years.year2024.days.Year2024Day2
-import dev.jarand.aoc.years.year2024.days.Year2024Day3
-import dev.jarand.aoc.years.year2024.days.Year2024Day4
+import dev.jarand.aoc.years.year2024.days.*
 
 fun main() {
     println("Advent of Code")
@@ -22,4 +19,8 @@ fun main() {
     println("Day 4")
     println("XMAS appearance: ${Year2024Day4().part1()}")
     println("X-MAS appearance: ${Year2024Day4().part2()}")
+
+    println("Day 5")
+    println("Sum of correctly ordered updates: ${Year2024Day5().part1()}")
+    println("Sum of incorrectly ordered updates after fix: ${Year2024Day5().part2()}")
 }
