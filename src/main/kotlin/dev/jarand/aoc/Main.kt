@@ -21,5 +21,5 @@ fun main() {
 
     println("Day 4")
     println("XMAS appearance: ${Year2024Day4().part1()}")
-    println("XMAS appearance: ${Year2024Day4().part2()}")
+    println("X-MAS appearance: ${Year2024Day4().part2()}")
 }

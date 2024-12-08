@@ -12,6 +12,6 @@ class Year2024Day4Test {
 
     @Test
     fun `2024 - Day 4 - Part 2`() {
-        assertThat(Year2024Day4().part2()).isEqualTo(-1)
+        assertThat(Year2024Day4().part2()).isEqualTo(1745)
     }
 }
