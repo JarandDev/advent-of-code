@@ -71,13 +71,8 @@ class Year2024Day3 : Day {
                 (index == 1 && character == 'u') ||
                 (index == 2 && character == 'l') ||
                 (index == 3 && character == '(') ||
-                (index == 4 && character.isDigit()) ||
-                (index == 5 && (character.isDigit() || character == ',')) ||
-                (index == 6 && (character.isDigit() || character == ',')) ||
-                (index == 7 && (character.isDigit() || character == ',')) ||
-                (index == 8 && (character.isDigit() || character == ',')) ||
-                (index == 9 && (character.isDigit() || character == ',')) ||
-                (index == 10 && (character.isDigit())) ||
+                ((index >= 5 || index <= 9) && (character.isDigit() || character == ',')) ||
+                ((index == 4 || index == 10) && character.isDigit()) ||
                 (index == instruction.length - 1 && instruction[index] == ')' && instruction.length > 5 && instruction.indexOf(',') != -1)
             }
         return result.all { it }
